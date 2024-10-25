@@ -1,6 +1,6 @@
 body {
     background-image:url('https://121clicks.com/wp-content/uploads/2022/01/humans_and_animals_connection_andrea_martin_29.jpg') ;
-    background-size:auto;
+    background-size:cover;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent repeating */
     height: 100vh;
@@ -33,6 +33,9 @@ input[type="text"], input[type="password"] {
 h2{
     text-align: center;
     font-family: serif;
+}
+#login-container{
+    
 }
 textarea {
     width: 100%;
