@@ -1,4 +1,9 @@
 body {
+    background-image:url('https://121clicks.com/wp-content/uploads/2022/01/humans_and_animals_connection_andrea_martin_29.jpg') ;
+    background-size:auto;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -15,9 +20,10 @@ header {
 main {
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
 }
 input[type="text"], input[type="password"] {
-        width: 50%;
+        width:200px;
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;
@@ -58,7 +64,7 @@ button {
 }
 
 button.like {
-    background-color: #007bff;
+    background-color:#008000;
     color: white;
 }
 
