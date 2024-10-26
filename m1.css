@@ -1,3 +1,14 @@
+@keyframes gradientAnimation {
+    0% {
+        background-color: #ddf02f;
+    }
+    50% {
+        background-color: #feb47b;
+    }
+    100% {
+        background-color: #ff5f7e;
+    }
+}
 body {
     background-image:url('https://121clicks.com/wp-content/uploads/2022/01/humans_and_animals_connection_andrea_martin_29.jpg') ;
     background-size:cover;
@@ -35,7 +46,18 @@ h2{
     font-family: serif;
 }
 #login-container{
-    
+    position: absolute;
+    max-width:320px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:0 4px 30px ;
+    animation: gradientAnimation 1s ease infinite;
+    background: rgba(255, 255, 255, 0.8);
+    background-size: 400% 400%;    
 }
 textarea {
     width: 100%;
