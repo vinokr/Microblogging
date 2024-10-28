@@ -19,9 +19,12 @@ function displayPosts() {
             <p>${post.content}</p>
             <p><small>${post.date}</small></p>
             <p>👍 Likes: ${post.likes} | 👎 Dislikes: ${post.dislikes}</p>
+            <br></br>
             <button class="like" onclick="likePost(${postIndex})">👍 Like</button>
             <button class="dislike" onclick="dislikePost(${postIndex})">👎 Dislike</button>
+            <br></br>
             <input type="text" class="comment-input" id="comment-input-${postIndex}" placeholder="Add a comment">
+            <br><br>
             <button onclick="addComment(${postIndex})">💬 Comment</button>
             <div>
                 <strong>Comments:</strong>
